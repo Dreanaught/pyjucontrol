@@ -1,1 +1,0 @@
-"""pyjucontrol tests."""
