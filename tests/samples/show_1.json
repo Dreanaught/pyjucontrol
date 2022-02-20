@@ -1,0 +1,27 @@
+{
+    "status": "ok",
+    "data": [
+        {
+            "id": "3711",
+            "parameter": "0x33",
+            "serial number": "682719c9d5e9",
+            "devicename": "",
+            "status": "online",
+            "location": "RaMa",
+            "update_error": null,
+            "device_error": null,
+            "not_responding": false,
+            "update_running": 0,
+            "intern_sv": "38",
+            "ewac_software_available": null,
+            "ewac_update_status": false,
+            "device_update_status": false,
+            "da": "0x1",
+            "dt": "0x33",
+            "dst": null,
+            "cfDate": null,
+            "flushIn": null
+        }
+    ],
+    "token": "5116605d31d61ad469c1b2391f97c857"
+}

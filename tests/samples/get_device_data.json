@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "serialnumber": "682719c9d5e9",
+            "installation_date": "2021-07-15T14:55:12",
+            "status": "online",
+            "sv": "1.11",
+            "hv": "1.0",
+            "data": [
+                {
+                    "da": "0x1",
+                    "dt": "0x33",
+                    "sv": "2.9h",
+                    "hv": "5.10",
+                    "data": {
+                        "1": {
+                            "data": "680902",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "2": {
+                            "data": "0A05",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "3": {
+                            "data": "492D0300",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "5": {
+                            "data": "220BA101",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "6": {
+                            "data": "5FEBF1E5",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "7": {
+                            "data": "1B2100000100",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "8": {
+                            "data": "18160100",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "9": {
+                            "data": "A6BD0000",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "10": {
+                            "data": "00",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "12": {
+                            "data": "00",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "14": {
+                            "data": "290BA101",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "63": {
+                            "data": "24",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "90": {
+                            "data": "0F00",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "92": {
+                            "data": "0000",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "93": {
+                            "data": "01010B199A",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "94": {
+                            "data": "D6835101",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "790": {
+                            "data": "0:00030F380000000005040F001D024000FB01740100001605D004110038002E00",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "791": {
+                            "data": "1:C0000000184B9E010B1BD800020100007B003900000301006900910C4100A200",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "792": {
+                            "data": "2:002C1D000A00F70148002400A00F2C011E000306A00F2C010613CB031E0000FF",
+                            "st": "OK",
+                            "er": ""
+                        },
+                        "793": null,
+                        "794": null,
+                        "lu": "20\/2\/2022 - 16:2:25"
+                    }
+                }
+            ],
+            "errors": [],
+            "waterscene_time": null,
+            "waterscene_time_garden": null,
+            "waterscene_time_heater": null,
+            "waterscene_time_washing": "1",
+            "waterscene": null,
+            "disable_time": null,
+            "waterscene_normal": "5",
+            "hardness_shower": "4",
+            "hardness_watering": "10",
+            "hardness_heater": "1",
+            "hardness_washing": "1",
+            "sleepmode_time": null,
+            "holiday_mode": null,
+            "update": "0"
+        }
+    ],
+    "status": "ok",
+    "token": "5116605d31d61ad469c1b2391f97c857",
+    "command": "get device data"
+}

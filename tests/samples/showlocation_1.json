@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "parameter": "Standort2",
+            "street": "Strasse",
+            "streetnumber": "Hausnummer",
+            "zipcode": "PLZ",
+            "city": "Stadt",
+            "country": "0",
+            "description": "2.ter Standort"
+        },
+        {
+            "parameter": "RaMa",
+            "street": "Hans-B\u00f6ckler-Str",
+            "streetnumber": "20",
+            "zipcode": "83301",
+            "city": "Traunreut",
+            "country": "0",
+            "description": ""
+        }
+    ],
+    "data_hash": "fb674848623eca16cae675005ee3001d",
+    "status": "ok",
+    "token": "5116605d31d61ad469c1b2391f97c857",
+    "command": "showlocation"
+}
