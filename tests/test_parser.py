@@ -6,5 +6,6 @@ class TestParser(unittest.TestCase):
     def test_parser(self):
         f = open('tests/samples/get_device_data.json')
         data = json.load(f)
-        parsers.Parser.parse_get_device_data(self, data)
+        parser = parsers.Parser()
+        parser.parse_get_device_data(data)
         f.close()
