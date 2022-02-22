@@ -1,1 +1,4 @@
 aiohttp
+aiounittest
+yarl
+hashlib
