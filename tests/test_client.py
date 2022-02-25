@@ -10,7 +10,7 @@ class TestClient(unittest.IsolatedAsyncioTestCase):
         self.client = Client("#uname", "#pwd") # after checkout of your workspace replace with correct username & passwort
         _successful = await self.client.login()
         if not _successful:
-            self.skipTest("external resource not available")
+            self.skipTest("Check username and Password!")
     
     # test get device data endpoint
     @unittest.skip("for now")
