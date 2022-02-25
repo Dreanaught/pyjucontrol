@@ -30,6 +30,11 @@ class Client:
     def token(self) -> str:
         """Return currently used token"""
         return self._token
+
+    @property
+    def total_water_consumed(self) -> int:
+        """Return total water consumed of \"last\" device"""
+        return self._total_water_consumed
     
     async def login(self) -> bool:
         """Login to api witn given username and password"""
@@ -64,6 +69,7 @@ class Client:
 
         #print(_deviceData)
         _device_map = await self._parse_get_device_data(_deviceData)
+        return self.total_water_consumed is not None
 
     async def _parse_get_device_data(self, json):
         _valid = json.get("status").upper() == "OK"
@@ -91,12 +97,12 @@ class Client:
                     elif v.get("st").upper() == "OK":
                         _k_it = int(k)
                         _valid_data[_k_it] = v.get("data")
-            print(_valid_data)
+            #print(_valid_data)
 
             # parsing data out of given bytestreams
             _8:str = _valid_data.get(8)
             if len(_8) == 8:
-                total_water_consumed = self.split_by_two_reverse(_8) # in liter
+                self._total_water_consumed = self.split_by_two_reverse(_8) # in liter
             _9:str = _valid_data.get(9)
             if len(_9) == 8:
                 total_soft_water_consumed = self.split_by_two_reverse(_9) # in liter
