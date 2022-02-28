@@ -10,7 +10,7 @@ setup(
     author_email="Dreanaught@example.com",
     license="MIT",
     url="https://github.com/Dreanaught/pyjucontrol",
-    python_requires=">3.9",
+    python_requires=">3.8",
     packages=["pyjucontrol"],
     keywords=["homeautomation", "jucontorl"],
     classifiers=[
